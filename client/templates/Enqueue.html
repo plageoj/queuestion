@@ -1,2 +1,12 @@
 <template name="Enqueue">
+    {{>header}}
+    <h1>
+        {{_ "enqueue.askQuestion"}}
+    </h1>
+    <form>
+        <textarea id="question-content" placeholder="{{_ "enqueue.question"}}"></textarea><br>
+        <label><input id="enable-ogiri" type="checkbox"> {{_ "enqueue.enableOgiri"}}</label><br>
+        <button id="enqueue">{{_ "enqueue.enqueue"}}</button>
+    </form>
+    {{>footer}}
 </template>

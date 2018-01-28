@@ -1,2 +1,11 @@
 <template name="Question">
+    {{>header}}
+    <p>
+        {{_ "question.question"}}<br>
+    </p>
+    <p>
+        <button id="dequeue">{{_ "question.dequeue"}}</button>
+        <button id="discard">{{_ "question.discard"}}</button>
+    </p>
+    {{>footer}}
 </template>

@@ -1,2 +1,15 @@
 <template name="Home">
+    {{>header}}
+    <h1>
+        {{_ "home.intro"}}
+    </h1>
+    <p>
+        <img src="" alt="{{_ "appName"}}">
+    </p>
+    <ol>
+        <li>{{_ "home.feature1"}}</li>
+        <li>{{_ "home.feature2"}}</li>
+        <li>{{_ "home.feature3"}}</li>
+    </ol>
+    {{>footer}}
 </template>

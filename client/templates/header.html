@@ -1,0 +1,14 @@
+<template name="header">
+    <header>
+        <div class="center">
+            <img src="" alt="{{_ "queuestion"}}">
+        </div>
+        <div class="right">
+            {{#if loggingIn}}
+                <button id="logout">{{_ "header.logout"}}</button>
+            {{else}}
+                <button id="login">{{_ "header.loginWithTwitter"}}</button>
+            {{/if}}
+        </div>
+    </header>
+</template>

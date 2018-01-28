@@ -1,0 +1,20 @@
+queuestion: queuestion
+header:
+  logout: ログアウト
+  loginWithTwitter: Twitter でログイン
+home:
+  intro: 自由で、オープンで、匿名の質問を。わずか2タップで。
+  feature1: Twitter でログインして 質問受け付け用のURLをツイートする
+  feature2: フォロワーさんがあなたに匿名で質問する
+  feature3: Twitter タイムラインで質問に答える
+enqueue:
+  askQuestion: %s さんに質問してみましょう。
+  question: 質問を入力
+  enableOgiri: 大喜利モード ( %s さん以外も回答できるようになります)
+  enqueue: 質問する
+user:
+  queue: あなたに寄せられた %s 件の質問
+question:
+  question: 質問が届いています：
+  dequeue: 回答する
+  discard: 破棄する
